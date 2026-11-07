@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercitii {
+    static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int suma = 0 ;
+
+        for(int i = 0 ; i <= 12 ; i++)
+        {
+            System.out.println("Introduceti suma din vanzari: " + i + " : ");
+
+            int userSumInput = scanner.nextInt();
+
+            suma = suma + userSumInput;
+        }
+
+
+
+        System.out.println("Total: " +suma );
+
+        scanner.close();
+
+    }
+
+}
